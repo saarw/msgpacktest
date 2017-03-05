@@ -1,0 +1,9 @@
+[package]
+name = "msgpack-rust"
+version = "0.1.0"
+authors = ["william <william@tcell.io>"]
+
+[dependencies]
+serde_derive = "0.9.7"
+serde = "0.9.7"
+rmp-serde = "0.12.2"
