@@ -16,7 +16,7 @@ Generate msgpack file
 ./target/release/msgpack-rust
 ```
 
-# In msgpack-java
+# In msgpack-java directory
 Build project  
 ```
 ./gradlew jar
