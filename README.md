@@ -6,17 +6,15 @@ This repository consists of two projects, **msgpack-java** and **msgpack-rust**,
 Requires that Java 1.8 and Rust are installed
 
 # In msgpack-rust
-Build project
-```cargo build --release
-```
-Generate msgpack file
-```./target/release/msgpack-rust
-```
+Build project  
+    cargo build --release
+
+Generate msgpack file   
+    ./target/release/msgpack-rust
+
 # In msgpack-java
 Build project
-```./gradlew jar
-```
+    ./gradlew jar
 
 Read Rust-generated msgpack file
-```java -jar ./build/libs/msgpack-reader-1.0-SNAPSHOT.jar ../msgpack-rust/rustoutput.msgpack
-```
+    java -jar ./build/libs/msgpack-reader-1.0-SNAPSHOT.jar ../msgpack-rust/rustoutput.msgpack
